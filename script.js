@@ -283,3 +283,11 @@ requestAnimationFrame(drawStars);
 }
 
 drawStars();
+
+const music = document.getElementById("music")
+
+document.addEventListener("click", () => {
+
+music.play()
+
+}, { once:true })
